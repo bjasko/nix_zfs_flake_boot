@@ -58,7 +58,7 @@
         "space-bar@luchrioh"
       ];
       favorite-apps = [ 
-        "firefox.desktop" 
+        #"firefox.desktop" 
         "google-chrome.desktop"
         "code.desktop" 
         #"org.gnome.Terminal.desktop" 
@@ -66,16 +66,16 @@
         "virt-manager.desktop" 
         "org.gnome.Nautilus.desktop"
         "fish.desktop"
-        "calc.desktop"
-        "writer.desktop"
+        #"calc.desktop"
+        #"writer.desktop"
         "dbeaver.desktop"
         "org.remmina.Remmina.desktop"
         "viber.desktop"
         ];
     };
     "org/gnome/desktop/interface" = {
-      #color-scheme = "prefer-dark";
-      color-scheme = "prefer-light";
+      color-scheme = "prefer-dark";
+      #color-scheme = "prefer-light";
       enable-hot-corners = false;
     };
     # `gsettings get org.gnome.shell.extensions.user-theme name`
@@ -99,7 +99,7 @@
     "org/gnome/desktop/interface" = {
         font-name = "Cantarell 13";
         document-font-name = "Cantarell 12";
-        text-scaling-factor = 1.70;
+        text-scaling-factor = 1;
         monospace-font-name = "Source Code Pro 12";
         titlebar-font = "Cantarell Bold 12";
         clock-show-weekday = true; 
@@ -119,7 +119,7 @@
     };
 
     "org/gnome/shell/extensions/dash-to-panel" = {
-      panel-sizes = "{\"0\":64}"; # 32, 48, 64, 96
+      panel-sizes = "{\"0\":48}"; # 32, 48, 64, 96
     };
 
     #"org/gnome/desktop/background" = {
