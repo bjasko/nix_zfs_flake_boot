@@ -130,6 +130,8 @@
 
     in [
         vim
+        pgadmin4
+        #eShell
         remmina
         patchelf
         silver-searcher
@@ -172,6 +174,8 @@
         xorg.xkbcomp
         viberFetch
         nixos-generators
+        anydesk
+        openvpn
   ];
 
     #environment.systemPackages = with pkgs; [

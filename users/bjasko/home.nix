@@ -113,8 +113,9 @@
       #window-position = lib.hm.gvariant.mkTuple [100 100];
 
       sources = [
-        (lib.hm.gvariant.mkTuple ["xkb" "us"]) 
         (lib.hm.gvariant.mkTuple ["xkb" "ba"])
+        (lib.hm.gvariant.mkTuple ["xkb" "us"]) 
+
       ];
     };
 
